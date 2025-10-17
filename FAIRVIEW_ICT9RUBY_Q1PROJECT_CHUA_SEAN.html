@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q1 Project</title>
+    <link rel="stylesheet" href="style_Q1Project.css">
+</head>
+<body>
+<div class="center-container">
+
+<header>
+    <h1>I'm Sean Chua</h1>
+    <p> 🙏Aspiring Web Developer🙏</p>
+    <hr>
+</header>
+
+<div class="section" id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Sean, an OBMC student with a passion on technology and coding, especially in website development. I enjoy creating simple websites in my spare time.</p>
+</div>
+<hr>
+<div class="section" id="works">
+    <h2>My Works</h2>
+    
+    <h3>My Personal Slambook</h3>
+    <div class="flex-row">
+        <img src="Personal Slambook.jpg" alt="Slambook Image" id="IMG">
+        <ul>
+            <li>HTML & CSS Projects</li>
+            <li>Personal Blog</li>
+            <li>School Portfolio</li>
+        </ul>
+    </div>
+
+    <h3>My Top 3 Favorite songs/artist</h3>
+    <div class="flex-row">
+        <img src="Top 3 Music.jpg" alt="Music Image" id="IMG">
+        <ol>
+            <li>HTML % CSS Projects</li>
+            <li>HTML Forms</li>
+            <li>List, Links, and images</li>
+        </ol>
+    </div>
+</div>
+<hr>
+<div class="section" id="contact">
+    <h2>Contact Me</h2> <br>
+    <form>
+        <div class="form-group">
+            <label for="name">Your Name:</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+            <label for="email">Your Email:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="jane_doe@gmail.com">
+        </div>
+        <div class="form-group">
+            <label>How did you find me?</label>
+            <br>
+            <input type="radio" id="facebook" name="findme" value="Facebook">
+            <label for="facebook">Facebook</label>
+            <input type="radio" id="google" name="findme" value="Google">
+            <label for="google">Google</label>
+            <input type="radio" id="friends" name="findme" value="Friends">
+            <label for="friends">Friends</label>
+        </div>
+        <div class="form-group">
+            <label>Services Interested In:</label>
+            <br>
+            <input type="checkbox" id="web" name="services" value="Web Design">
+            <label for="web">Web Design</label>
+            <input type="checkbox" id="graphic" name="services" value="Graphic Design">
+            <label for="graphic">Graphic Design</label>
+            <input type="checkbox" id="robotics" name="services" value="Robotics">
+            <label for="robotics">Robotics</label>
+        </div>
+        <div class="form-group">
+            <label for="rating">Rate my Portfolio</label>
+            <br>
+            <select id="rating" name="rating">
+                <option value="">-- Select Rating --</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="below-average">Below Average</option>
+                <option value="poor">Poor</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="feedback">Any Feedback?</label>
+            <br>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Feedback here..."></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<hr>
+</div>
+</body>
+</html>
